@@ -13,6 +13,7 @@
     line-height: 1.125;
     margin-bottom: 30px;
     position: relative;
+    
 }
 
 .introducao h1::before {
@@ -21,7 +22,7 @@
     width: 130px;
     height: 100px;
     background: url('../img/detalhe.svg');
-    position: relative;
+    position: absolute;
     top: -15px;
     left: -40px;
     z-index: -1;
